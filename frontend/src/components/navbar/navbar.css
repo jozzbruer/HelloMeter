@@ -1,0 +1,25 @@
+.navbar {
+	background: #4d43b5;
+	width: 100vw;
+	min-height: 6rem;
+}
+
+.logo {
+	font-size: 3rem;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: #fff;
+	width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+	.logo {
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 325px) {
+	.logo {
+		font-size: 2.6rem;
+	}
+}
